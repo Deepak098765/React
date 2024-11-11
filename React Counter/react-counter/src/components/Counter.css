@@ -1,0 +1,23 @@
+.counter-container{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+#para{
+    font-weight: 600;
+    
+}
+
+#counter-button{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}

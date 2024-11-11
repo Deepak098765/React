@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.counter-container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(183, 215, 183);
+    border-radius: 5px;
+}
+
+#counter-display{
+    color:blue;
+    font-weight:700;
+    padding: 10px;
+}
+
+#counter-button{
+    background-color: rgb(6, 6, 6);
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+
+#counter-button:hover{
+    background-color: #383333;
+}
