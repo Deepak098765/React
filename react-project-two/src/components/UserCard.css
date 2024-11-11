@@ -1,0 +1,23 @@
+#car-image{
+    width: 300px;
+    max-height: 200px;
+    border-radius: 5%;
+    
+
+}
+
+.user-container{
+    
+    width: 400px;
+    background-color: rgb(168, 220, 202);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1%;
+    
+    min-height: 400px;
+}
+
